@@ -39,6 +39,7 @@ function App() {
 	return (
 		<>
 			<Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+			{/* <About /> */}
 			<Alerts alert={alert} />
 			<div className="container my-3">
 				<TextForm

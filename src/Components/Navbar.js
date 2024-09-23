@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
 	return (
@@ -54,7 +53,6 @@ export default function Navbar(props) {
 							type="checkbox"
 							role="switch"
 							id="flexSwitchCheckDefault"
-							defaultChecked={props.mode === "light"}
 						/>
 						<label
 							className="form-check-label"
