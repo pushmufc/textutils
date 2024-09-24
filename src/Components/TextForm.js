@@ -44,8 +44,8 @@ export default function TextForm(props) {
 						onChange={handleonChange}
 						style={{
 							backgroundColor: props.mode === "dark" ? "grey" : "white",
-							color: props.mode === "dark" ? "white" : "black",
-							caretColor: "lime",
+							color: props.mode === "light" ? "black" : "white",
+							caretColor: props.mode === "dark" ? "white" : "black",
 						}}
 						id="MyBox"
 						rows="8"></textarea>

@@ -1,0 +1,14 @@
+<Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+			{/* <About /> */}
+
+			<div>
+				{" "}
+				<Alerts alert={alert} />{" "}
+			</div>
+			<div className="container my-3">
+				<TextForm
+					showalert={showalert}
+					heading="Enter your text here"
+					mode={mode}
+				/>
+			</div>
